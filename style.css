@@ -215,7 +215,6 @@ input[type="submit"] {
     font-size: var(--description-font-size);
 }
 
-
 /* header section style end here  */
 
 
@@ -224,20 +223,13 @@ input[type="submit"] {
 
 /* Our Popular Tours section style start here  */
 
-
-
-
-.popular-tours-container {
+.popular-tours-container,
+.perfects-place-container {
     display: flex;
     gap: 70px;
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-
 
 .tour-des {
     margin: 24px 0;
@@ -257,16 +249,41 @@ input[type="submit"] {
 }
 
 
+/* Our Popular Tours style end here  */
 
 
 
+/* Our Popular Tours style end here  */
 
+.destination-container{
+    text-align: center;
+}
+
+.destination-title{
+    margin-bottom: 25px;
+}
+.destination-text{
+    margin-bottom: 48px;
+}
 /* Our Popular Tours style end here  */
 
 
 
 
 
+
+
+
+
+/* perfects place style start here  */
+
+
+
+.place-list{
+    color: var(--title-color);
+    font-weight: 700;
+}
+/* perfects place style start here  */
 
 
 
