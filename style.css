@@ -241,7 +241,7 @@ input[type="submit"] {
     line-height: var(--description-line-height);
 }
 
-.tour-btn{
+.tour-btn {
     margin-top: 10px;
 }
 
@@ -254,31 +254,33 @@ input[type="submit"] {
 
 .destination-container,
 .choose-us-container,
-.deals-discounts-container{
+.deals-discounts-container {
     text-align: center;
 }
 
 .destination-title,
 .choose-us-title,
-.deals-discounts-title{
+.deals-discounts-title {
     margin-bottom: 25px;
 }
+
 .destination-text,
 .choose-us-text,
-.deals-discounts-text{
+.deals-discounts-text {
     margin-bottom: 48px;
 }
 
 .image-1,
 .image-2,
-.image-3{
+.image-3 {
     display: flex;
     gap: 30px;
     margin-bottom: 25px;
 }
+
 .destination-text,
 .choose-us-text,
-.deals-discounts-text{
+.deals-discounts-text {
     padding: 0 16rem;
 }
 
@@ -287,8 +289,51 @@ input[type="submit"] {
 
 
 /* Why Choose Us style start here  */
-#choose-us{
-    text-align: center;
+.choose-us-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    text-align: start;
+    margin-bottom: 24px;
+}
+.card-content{
+    padding: 35px;
+}
+
+.card-content svg{
+    margin-bottom: 32px;
+}
+.card-title {
+    font-size: 24px;
+    color: var(--title-color);
+    font-weight: var(--title-font-weight);
+    margin-bottom: 16px;
+}
+
+.card-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    margin: auto;
+    text-align: start;
 }
 /* Why Choose Us style end here  */
 
@@ -301,10 +346,11 @@ input[type="submit"] {
 
 
 
-.place-list{
+.place-list {
     color: var(--title-color);
     font-weight: 700;
 }
+
 /* perfects place style start here  */
 
 
