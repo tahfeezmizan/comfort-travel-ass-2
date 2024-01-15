@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
@@ -43,6 +42,17 @@ section {
     font-weight: var(--title-font-weight);
 }
 
+.primary-btn {
+    padding: 14px 35px;
+    color: var(--white-01);
+    font-size: 20px;
+    font-weight: var(--title-font-weight);
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+}
+
 
 
 
@@ -80,11 +90,16 @@ section {
     padding-right: 16px;
 }
 
+.nav-item {
+    list-style: none;
+}
+
 .nav-item a {
     color: var(---Dark-02);
     font-size: 18px;
     font-weight: 400;
     padding: 0 22px;
+
 }
 
 .nav-item .active {
@@ -212,11 +227,40 @@ input[type="submit"] {
 
 
 
-.popular-tours-container{
+.popular-tours-container {
     display: flex;
+    gap: 70px;
     align-items: center;
     justify-content: space-between;
 }
+
+
+
+
+
+
+.tour-des {
+    margin: 24px 0;
+}
+
+
+.tour-list li {
+    margin-left: 20px;
+    list-style-position: outside;
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: var(--description-line-height);
+}
+
+.tour-btn{
+    margin-top: 10px;
+}
+
+
+
+
+
+
 /* Our Popular Tours style end here  */
 
 
