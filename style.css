@@ -107,13 +107,14 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .banner-title {
     color: var(--white-01);
     font-size: 64px;
     font-weight: var(--title-font-weight);
-    padding-top: 120px;
+    padding-top: 124px;
     margin-bottom: 25px;
 }
 
@@ -126,7 +127,7 @@ section {
 .tour-search-box {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 918px;
+    width: 955px;
     margin: auto;
     padding: 24px 15px;
 }
@@ -135,32 +136,52 @@ input,
 select {
     border: none;
     outline: none;
+    color: rgba(19, 19, 24, 0.50);
     margin: 0 10px;
-    text-align: center;
-    padding: 20px 65px 22px 16px;
+    padding: 20px 60px 22px 16px;
     background: var(--white-01);
     border-radius: 8px;
 }
-
+input[type="submit"] {
+    margin-right: 0;
+    background: #FF5400;
+    color: var(--white-01);
+    padding: 20px 40px 22px 40px;
+    font-weight: 700;
+}
 input[type="time"] {
     padding: 20px 20px 20px 16px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
-
+input[type="text"] {
+    margin-left: 0;
+}
+select#select-type,
+input[type="text"] {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 700;
+}
+input[type="submit"] {
+    margin-right: 0;
+}
 label {
     background: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 700;
     padding: 19px 20px 21px 16px;
-    margin-right: -18px;
-    margin-left: 22px;
+    margin-right: -15px;
+    margin-left: 10px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    /* border-radius: 8px; */
 }
 
-::placeholder {
+input::placeholder,
+select::placeholder,
+input[type="submit"] {
     color: rgba(19, 19, 24, 0.50);
-    font-size: var(--description-font-size)
+    font-size: var(--description-font-size);
 }
 
 
