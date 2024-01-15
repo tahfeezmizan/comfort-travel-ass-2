@@ -209,6 +209,14 @@ input[type="submit"] {
 
 /* Our Popular Tours section style start here  */
 
+
+
+
+.popular-tours-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Our Popular Tours style end here  */
 
 
