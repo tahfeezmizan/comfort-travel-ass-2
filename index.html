@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header id="header">
         <div class="container">
@@ -32,9 +33,35 @@
             </nav>
         </div>
     </header>
-
     <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner-container">
+                    <h1 class="banner-title">Explore Your Travel</h1>
+                    <p class="description-text banner-des">Dolor sit amet consectetur. Nullam suspendisse vitae
+                        ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
 
+                    <div class="tour-search-box">
+                        <form action="">
+                            <input type="text" placeholder="Where go" required>
+                            <label for="">When</label>
+                            <input type="time" required value="When" placeholder="Where go">
+
+                            <select name="select-type" id="select-type" placeholder="Select Type">
+                                <option value="" disabled selected>Select Type</option>
+                                <option value="volvo">Maldives</option>
+                                <option value="saab">Indonesia</option>
+                                <option value="opel">Sri Lanka</option>
+                                <option value="audi">North America</option>
+                                <option value="audi">Kashmir</option>
+                              </select>
+
+                            <input type="submit" value="Find Now" placeholder="" required>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

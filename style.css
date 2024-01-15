@@ -17,6 +17,7 @@
     --description-font-size: 16px;
     --description-line-height: 26px;
     ---Dark-02: #424247;
+    --white-01: #fff;
 
 }
 
@@ -24,6 +25,10 @@
     width: 1170px;
     margin: 0 auto;
 
+}
+
+section {
+    padding: 60px 0;
 }
 
 .description-text {
@@ -87,6 +92,80 @@
 }
 
 
+/* header section style end here  */
+
+
+
+
+/* header section style start here  */
+
+.banner-container {
+    height: 62vh;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-title {
+    color: var(--white-01);
+    font-size: 64px;
+    font-weight: var(--title-font-weight);
+    padding-top: 120px;
+    margin-bottom: 25px;
+}
+
+.banner-des {
+    color: var(--white-01);
+    margin-bottom: 50px;
+    padding: 0 16rem;
+}
+
+.tour-search-box {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 918px;
+    margin: auto;
+    padding: 24px 15px;
+}
+
+input,
+select {
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    text-align: center;
+    padding: 20px 65px 22px 16px;
+    background: var(--white-01);
+    border-radius: 8px;
+}
+
+input[type="time"] {
+    padding: 20px 20px 20px 16px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+label {
+    background: #fff;
+    padding: 19px 20px 21px 16px;
+    margin-right: -18px;
+    margin-left: 22px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* border-radius: 8px; */
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: var(--description-font-size)
+}
+
+
+
+
 
 
 
@@ -94,8 +173,6 @@
 
 
 /* header section style end here  */
-
-
 
 
 
