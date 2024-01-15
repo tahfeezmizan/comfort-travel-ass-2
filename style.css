@@ -36,6 +36,7 @@ section {
     line-height: var(--description-line-height);
 }
 
+
 .global-title {
     color: var(--title-color);
     font-size: 40px;
@@ -186,7 +187,7 @@ input[type="text"] {
 select#select-type,
 input[type="text"] {
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
+    font-size: var(--description-font-size);
     font-weight: 700;
 }
 
@@ -289,20 +290,22 @@ input[type="submit"] {
 
 
 /* Why Choose Us style start here  */
-.choose-us-card{
+.choose-us-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     text-align: start;
     margin-bottom: 24px;
 }
-.card-content{
+
+.card-content {
     padding: 35px;
 }
 
-.card-content svg{
+.card-content svg {
     margin-bottom: 32px;
 }
+
 .card-title {
     font-size: 24px;
     color: var(--title-color);
@@ -311,12 +314,12 @@ input[type="submit"] {
 }
 
 .card-text {
-    color: #5A5A5D;
-    font-size: 16px;
-    line-height: 26px;
+    color: var(--description-color);
+    font-size: var(--description-font-size);
+    line-height: var(--description-line-height);
 }
 
-.card-1{
+.card-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -327,7 +330,8 @@ input[type="submit"] {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.card-3{
+
+.card-3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -335,9 +339,77 @@ input[type="submit"] {
     margin: auto;
     text-align: start;
 }
+
 /* Why Choose Us style end here  */
 
 
+
+
+/* Deals & Discounts style start here  */
+
+.discounts-content {
+    background: url(Images/Group\ 39.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+
+
+.discounts-card {
+    position: absolute;
+    width: 580px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin: 58px 56px 58px 535px;
+    text-align: start;
+}
+
+.date-line {
+    display: flex;
+    align-items: center;
+}
+
+.date-line p {
+    padding-right: 24px;
+    color: var(--description-color);
+    font-size: var(--description-font-size);
+    margin-bottom: 26px;
+}
+
+.date-line svg {
+    padding-right: 8px;
+    width: 30px;
+    margin-bottom: -6px;
+}
+
+.discount-card-title {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: var(--title-font-weight);
+    margin-bottom: 16px;
+}
+
+.discount-card-text {
+    color: #5A5A5D;
+    margin-bottom: 16px;
+}
+
+.discount-price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: var(--title-font-weight);
+margin-bottom: 14px;
+}
+
+.discount-card-btn{
+    padding: 14px 25px;
+}
+
+/* Deals & Discounts style end here  */
 
 
 
@@ -352,6 +424,14 @@ input[type="submit"] {
 }
 
 /* perfects place style start here  */
+
+
+
+
+
+
+
+
 
 
 
