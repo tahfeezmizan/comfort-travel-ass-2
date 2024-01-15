@@ -37,6 +37,11 @@ section {
     line-height: var(--description-line-height);
 }
 
+.global-title {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: var(--title-font-weight);
+}
 
 
 
@@ -127,7 +132,7 @@ section {
 .tour-search-box {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 955px;
+    width: 940px;
     margin: auto;
     padding: 24px 15px;
 }
@@ -142,6 +147,7 @@ select {
     background: var(--white-01);
     border-radius: 8px;
 }
+
 input[type="submit"] {
     margin-right: 0;
     background: #FF5400;
@@ -149,23 +155,33 @@ input[type="submit"] {
     padding: 20px 40px 22px 40px;
     font-weight: 700;
 }
+
 input[type="time"] {
+    margin-left: 0;
     padding: 20px 20px 20px 16px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
+
 input[type="text"] {
     margin-left: 0;
 }
+
 select#select-type,
 input[type="text"] {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 700;
 }
+
+input[type="text"]:first-child {
+    padding-right: 5px;
+}
+
 input[type="submit"] {
     margin-right: 0;
 }
+
 label {
     background: #fff;
     color: rgba(19, 19, 24, 0.50);
@@ -185,15 +201,15 @@ input[type="submit"] {
 }
 
 
-
-
-
-
-
-
-
-
 /* header section style end here  */
+
+
+
+
+
+/* Our Popular Tours section style start here  */
+
+/* Our Popular Tours style end here  */
 
 
 
