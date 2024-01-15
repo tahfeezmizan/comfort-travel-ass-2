@@ -1,69 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-body a {
     text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
-#navbar {
-    overflow: hidden;
-    width: 100%;
+:root{
+    --title-color: #131318;
+    --title-font-weight: 800;
+    --global-btn-background: #FF5400;
+    --description-color: #5A5A5D;
+    --description-font-size: 16px;
+    --description-line-height: 26px;
+    
 }
 
-#navbar nav {
-    width: 100%;
-    height: 80px;
-    background: #0e1012;
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
 }
 
-.container {
-    width: 1340px !important;
-    margin: auto;
-    padding: 0 15px;
+.description-text{
+    color: var(--description-color);
+    font-size: var(--description-font-size);
+    line-height: var(--description-line-height);
 }
 
-.logo a {
-    float: left;
-    font-size: 30px;
-    color: white;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 30px;
-    line-height: 50px;
-    letter-spacing: 1px;
-    transition: all 0.5s ease-in-out; 
+
+
+
+
+
+
+/* header section style start here  */
+
+.nav-bar,
+.site-logo,
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-ul {
-    float: right;
-    padding-right: 10px;
-    transition: all 0.5s ease-in-out;
-}
 
-ul li {
-    display: inline-block;
-    line-height: 80px;
-}
 
-ul li a {
-    color: white;
-    font-size: 20px;
-    padding: 30px 10px;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
 
+
+
+
+
+/* header section style end here  */
+
+
+
+
+
+
+
+
+
+
+
+/* 
 #toggleIcon {
     color: white;
     float: right;
@@ -118,4 +121,6 @@ ul li a {
         left: 0;
     }
 }
+
+ */
 
