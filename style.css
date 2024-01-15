@@ -9,23 +9,24 @@
     font-family: 'Mulish', sans-serif;
 }
 
-:root{
+:root {
     --title-color: #131318;
     --title-font-weight: 800;
     --global-btn-background: #FF5400;
     --description-color: #5A5A5D;
     --description-font-size: 16px;
     --description-line-height: 26px;
-    
+    ---Dark-02: #424247;
+
 }
 
-.container{
+.container {
     width: 1170px;
     margin: 0 auto;
 
 }
 
-.description-text{
+.description-text {
     color: var(--description-color);
     font-size: var(--description-font-size);
     line-height: var(--description-line-height);
@@ -38,13 +39,51 @@
 
 
 /* header section style start here  */
+#header {
+    height: 100px;
+    align-items: end;
+}
 
 .nav-bar,
 .site-logo,
-.nav-item{
+.nav-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav-bar {
+    padding-top: 45px;
+}
+
+.site-logo .nav-title {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: var(--title-font-weight);
+}
+
+.nav-span {
+    color: #FF5400;
+}
+
+.logo-img {
+    padding-right: 16px;
+}
+
+.nav-item a {
+    color: var(---Dark-02);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 22px;
+}
+
+.nav-item .active {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.nav-item a:last-child {
+    padding-right: 0;
 }
 
 
@@ -123,4 +162,3 @@
 }
 
  */
-
