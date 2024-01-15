@@ -253,22 +253,35 @@ input[type="submit"] {
 
 
 
-/* Our Popular Tours style end here  */
+/* Your Destination style start here  */
 
-.destination-container{
+.destination-container,
+.choose-us-container,
+.deals-discounts-container{
     text-align: center;
 }
 
-.destination-title{
+.destination-title,
+.choose-us-title,
+.deals-discounts-title{
     margin-bottom: 25px;
 }
-.destination-text{
+.destination-text,
+.choose-us-text,
+.deals-discounts-text{
     margin-bottom: 48px;
 }
-/* Our Popular Tours style end here  */
+
+
+/* Your Destination style end here  */
 
 
 
+/* Why Choose Us style start here  */
+#choose-us{
+    text-align: center;
+}
+/* Why Choose Us style end here  */
 
 
 
