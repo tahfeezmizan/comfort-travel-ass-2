@@ -672,6 +672,7 @@ hr {
 
     .discounts-content {
         height: 66vh;
+        border-radius: 16px;
     }
 
     .discount-card-title,
@@ -694,8 +695,25 @@ hr {
     .newsletter-container {
         flex-direction: column;
     }
+
     .img-overlay img {
         height: 175px;
+    }
+
+    .overlay {
+        top: 65px;
+        left: 150px;
+        right: 17px;
+        padding: 24px 30px;
+        border-radius: 16px;
+    }
+
+    .overlay-title {
+        font-size: 15px;
+    }
+
+    .discount-saveup {
+        font-size: 21px;
     }
 
     .choose-us-card,
@@ -718,6 +736,11 @@ hr {
         margin: 180px 46px 22px 48px;
     }
 
+    .card-content {
+        padding: 25px;
+        width: 96%;
+    }
+
     /* sponsor section responsive  */
 
     .sponsor-container {
@@ -738,6 +761,7 @@ hr {
 
     iframe {
         max-width: 100%;
+        border-radius: 16px;
     }
 
 }
