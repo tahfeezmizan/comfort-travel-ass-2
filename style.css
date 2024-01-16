@@ -524,7 +524,7 @@ hr {
 
     .container {
         max-width: 100%;
-        /* padding: 0px 10px; */
+        padding: 0px 10px !important;
     }
 
     #header {
@@ -556,16 +556,19 @@ hr {
 
     .toggle-icon #close-menu {
         display: none;
+        transition: 0.3s ease;
     }
 
     #check:checked~.toggle-icon #close-menu {
         display: block
     }
-
+    ul.nav-item li {
+        margin: 12px 0;
+    }
     .nav-item{
         display: none;
         position: absolute;
-        top: 90px;
+        top: 82px;
         left: 0;
         width: 100%;
         height: 0;
@@ -574,20 +577,19 @@ hr {
     }
 
     .nav-item li a {
-        color: #fff;
+        color: #fff !important;
     } 
     
     #check:checked~.nav-item {
-        height: 15rem;
+        height: 12rem;
         display: block;
     }
-
-
     .nav-bar {
         flex-direction: column;
         gap: 15px;
         padding: 20px 0px;
         align-items: self-start;
+        transition: 0.3s ease;
     }
 
     .banner-container {
@@ -673,8 +675,8 @@ hr {
     }
 
     .overlay {
-        top: 131px;
-        left: 182px;
+        top: 171px;
+        left: 236px;
         right: 10px;
         padding: 24px 30px;
         border-radius: 16px;
@@ -704,7 +706,7 @@ hr {
     .discounts-card {
         width: 320px;
         padding: 24px;
-        margin: 180px 46px 22px 48px;
+        margin: 180px 66px 22px 69px;
     }
 
     .card-content {
@@ -745,5 +747,66 @@ hr {
 
     .toggle-icon{
         display: block;
+    }
+
+    .site-logo{
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+
+    .toggle-icon, #check{
+        display: inline-flex;
+        position: absolute;
+        right: -443px;
+    }
+    #check{
+        display: none;
+        top: 33px;
+        z-index: 1;
+    }
+
+    #check:checked~.toggle-icon #menu-icon {
+        display: none
+    }
+
+    .toggle-icon #close-menu {
+        display: none;
+    }
+
+    #check:checked~.toggle-icon #close-menu {
+        display: block
+    }
+    ul.nav-item li {
+        margin: 17px 0;
+    }
+    .nav-item{
+        display: none;
+        position: absolute;
+        top: 148px;
+        left: 0px;
+        right: 0;
+        width: 173% !important;
+        height: 0;
+        text-align: center;
+        background-color: #ff5400;
+    }
+
+    .nav-item li a {
+        color: #fff !important;
+        font-size: 26px;
+    } 
+    
+    #check:checked~.nav-item {
+        height: 17rem;
+        display: block;
+    }
+    .nav-bar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0px;
+        align-items: self-start;
+        justify-content: end;
     }
 }
