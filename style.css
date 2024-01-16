@@ -78,7 +78,8 @@ section {
     padding-top: 45px;
 }
 
-.site-logo .nav-title {
+.site-logo .nav-title,
+.footer-title {
     color: var(--title-color);
     font-size: 36px;
     font-weight: var(--title-font-weight);
@@ -354,7 +355,8 @@ input[type="submit"] {
     height: 500px;
     margin-bottom: 25px;
 }
-.second-card-content{
+
+.second-card-content {
     background: url(Images/Group\ 40.png);
     background-size: cover;
     height: 500px;
@@ -371,6 +373,7 @@ input[type="submit"] {
     margin: 58px 56px 58px 535px;
     text-align: start;
 }
+
 .second-card {
     margin: 56px 56px 58px 56px;
 }
@@ -406,14 +409,14 @@ input[type="submit"] {
     margin-bottom: 16px;
 }
 
-.discount-price{
+.discount-price {
     color: #FF5400;
-font-size: 20px;
-font-weight: var(--title-font-weight);
-margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: var(--title-font-weight);
+    margin-bottom: 14px;
 }
 
-.discount-card-btn{
+.discount-card-btn {
     padding: 14px 25px;
 }
 
@@ -443,7 +446,7 @@ margin-bottom: 14px;
     justify-content: space-between;
 }
 
-.newsletter-content hr{
+.newsletter-content hr {
     margin: 24px 0;
     border: 0.2px solid rgba(19, 19, 24, 0.10);
 }
@@ -453,6 +456,7 @@ margin-bottom: 14px;
     border-radius: 16px;
     border: 1px solid #FF5400;
 }
+
 .newsletter-form input {
     width: 100%;
     border-radius: 8px;
@@ -467,15 +471,31 @@ margin-bottom: 14px;
     margin-bottom: 16px;
 }
 
-#newsletter-submit{
+#newsletter-submit {
     background: #FF5400;
 }
 
 
-
 /* newsletter style end here  */
 
+#footer {
+    background: rgba(19, 19, 24, 0.05);
+}
 
+.footer-content {
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.footer-text{
+    
+}
 
 
 
