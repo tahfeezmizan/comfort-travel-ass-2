@@ -510,11 +510,14 @@ hr {
 
 .overlay-title {
     color: var(--white-01);
+    font-weight: 400;
+    text-align: center;
 }
 
 .discount-saveup {
     font-size: 32px;
     font-weight: var(--title-font-weight);
+    text-align: center;
 }
 
 /* newsletter style end here  */
