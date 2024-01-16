@@ -27,7 +27,7 @@
 }
 
 section {
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .description-text {
@@ -153,8 +153,14 @@ section {
     padding: 0 16rem;
 }
 
-form input {
-    display: flex !important; 
+.tour-search-form {
+    display: flex;
+}
+
+.when-filed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tour-search-box {
@@ -478,6 +484,10 @@ input[type="submit"] {
     font-weight: 700;
 }
 
+iframe {
+    border-radius: 16px;
+}
+
 /* perfects place style end here  */
 
 
@@ -605,6 +615,10 @@ hr {
 /* responsive for mobile screen  */
 
 @media screen and (max-width: 576px) {
+    section {
+        padding: 25px 0;
+    }
+
     .container {
         max-width: 100%;
         padding: 0 8px;
@@ -633,15 +647,28 @@ hr {
         padding: 0 3rem;
     }
 
+    .tour-search-form {
+        flex-direction: column;
+    }
+
     .tour-search-box {
         width: 388px;
         padding: 24px 15px;
     }
 
-    form {
+    .newsletter-form {
         display: flex;
         flex-direction: column;
         width: 391px;
+    }
+
+    .when-filed {
+
+        margin-bottom: 16px;
+    }
+
+    input[type="time"] {
+        margin-bottom: 0;
     }
 
     form input,
@@ -761,7 +788,6 @@ hr {
 
     iframe {
         max-width: 100%;
-        border-radius: 16px;
     }
 
     .newsletter-content:first-child {
