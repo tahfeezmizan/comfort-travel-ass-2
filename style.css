@@ -115,6 +115,13 @@ section {
 }
 
 
+.toggle-icon {
+    color: #110a13;
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+
 /* header section style end here  */
 
 
@@ -123,14 +130,13 @@ section {
 /* header section style start here  */
 
 .banner-container {
-    height: 62vh;
+    height: 75vh;
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .banner-title {
@@ -148,9 +154,12 @@ section {
 }
 
 .tour-search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 940px;
+    width: 900px;
     margin: auto;
     padding: 24px 15px;
 }
@@ -305,6 +314,23 @@ input[type="submit"] {
 
 /* Your Destination style end here  */
 
+
+
+/* Sponsor style start here  */
+
+.sponsor-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 35px;
+}
+
+.sponsor-container img {
+    width: 130px;
+}
+
+/* Sponsor style start here  */
 
 
 /* Why Choose Us style start here  */
@@ -520,13 +546,14 @@ hr {
     text-align: center;
 }
 
+
 /* newsletter style end here  */
 
 
 
 
 
-
+/* footer style start here  */
 
 #footer {
     background: rgba(19, 19, 24, 0.05);
@@ -565,90 +592,99 @@ hr {
     margin: 50px 0 !important;
 }
 
+/* footer style end here  */
 
 
 
 
 
-#toggleIcon {
-    color: white;
-    float: right;
-    font-size: 30px;
-    line-height: 69px;
-    padding: 10px;
-    display: none;
-    cursor: pointer;
-    margin-right: 40px;
-}
-
-@media (max-width: 1080px) {
-    .logo a {
-        font-size: 25px;
-    }
-
-    ul {
-        margin-right: 10px;
-    }
-
-    ul li a {
-        font-size: 18px;
-    }
-}
+/* responsive for mobile screen  */
 
 @media screen and (max-width: 576px) {
     .container {
         max-width: 100%;
     }
 
-    .nav-bar,
-    .site-logo,
-    .nav-item {
+    #header {
+        height: 60px;
+        align-items: center;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .banner-title {
+        font-size: 22px;
+    }
+
+    .banner-des,
+    .destination-text,
+    .choose-us-text,
+    .deals-discounts-text {
+        padding: 0 3rem;
+    }
+
+    .tour-search-box {
+        width: 490px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* #select-type,
+    input, label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    } */
+    .destination-content img,
+    .newsletter-content img {
+        width: 100%;
+    }
+
+    .popular-tours-container,
+    .perfects-place-container,
+    .image-1,
+    .image-2,
+    .image-3,
+    .newsletter-container {
         flex-direction: column;
     }
-}
 
-
-
-
-
-
-
-
-@media (max-width: 909px) {
-    #toggleIcon {
-        display: block;
-        color: white;
-        margin-right: 20px;
+    .choose-us-card,
+    .date-line {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    ul {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        height: 100vh;
-        background: #110a13;
+    .date-line {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-3 {
+        width: 100%;
+    }
+
+    .discounts-card {
+        width: 320px;
+        padding: 50px;
+        margin: 50px;
+    }
+
+    /* sponsor section responsive  */
+
+    .sponsor-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    .sponsor-container img,
+    .feature-img {
+        max-width: 80%;
         text-align: center;
-        transition: all .5s;
     }
 
-    ul li {
-        display: block;
-        line-height: 30px;
-        margin: px 0;
-    }
-
-    ul li a {
-        font-size: 20px !important;
-    }
-
-    ul li a:hover {
-        color: rgb(75, 75, 216);
-        transition: 0.5s;
-    }
-
-    ul.show {
-        left: 0;
-    }
 }
-
-*/
