@@ -153,8 +153,8 @@ section {
     padding: 0 16rem;
 }
 
-form {
-    display: flex;
+form input {
+    display: flex !important; 
 }
 
 .tour-search-box {
@@ -701,9 +701,9 @@ hr {
     }
 
     .overlay {
-        top: 65px;
-        left: 150px;
-        right: 17px;
+        top: 131px;
+        left: 182px;
+        right: 10px;
         padding: 24px 30px;
         border-radius: 16px;
     }
@@ -762,6 +762,12 @@ hr {
     iframe {
         max-width: 100%;
         border-radius: 16px;
+    }
+
+    .newsletter-content:first-child {
+        padding: 21px 15px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
     }
 
 }
