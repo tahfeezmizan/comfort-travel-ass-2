@@ -684,7 +684,6 @@ hr {
     .destination-content img,
     .newsletter-content img {
         width: 100%;
-        max-height: 175px;
     }
 
     .popular-tours-container,
@@ -694,6 +693,9 @@ hr {
     .image-3,
     .newsletter-container {
         flex-direction: column;
+    }
+    .img-overlay img {
+        height: 175px;
     }
 
     .choose-us-card,
