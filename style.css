@@ -563,7 +563,10 @@ hr {
 }
 
 
-/* 
+
+
+
+
 #toggleIcon {
     color: white;
     float: right;
@@ -575,24 +578,46 @@ hr {
     margin-right: 40px;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     .logo a {
         font-size: 25px;
     }
+
     ul {
         margin-right: 10px;
     }
+
     ul li a {
         font-size: 18px;
     }
 }
 
-@media (max-width: 909px) { 
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .nav-bar,
+    .site-logo,
+    .nav-item {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 909px) {
     #toggleIcon {
         display: block;
         color: white;
         margin-right: 20px;
     }
+
     ul {
         position: fixed;
         top: 80px;
@@ -602,21 +627,25 @@ hr {
         text-align: center;
         transition: all .5s;
     }
+
     ul li {
         display: block;
         line-height: 30px;
         margin: px 0;
     }
+
     ul li a {
         font-size: 20px !important;
     }
+
     ul li a:hover {
         color: rgb(75, 75, 216);
         transition: 0.5s;
     }
-    ul.show{
+
+    ul.show {
         left: 0;
     }
 }
 
- */
+*/
