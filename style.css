@@ -27,7 +27,7 @@
 }
 
 section {
-    padding: 60px 0;
+    padding: 35px 0;
 }
 
 .description-text {
@@ -156,6 +156,7 @@ section {
 form {
     display: flex;
 }
+
 .tour-search-box {
     display: flex;
     align-items: center;
@@ -606,6 +607,7 @@ hr {
 @media screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+        padding: 0 8px;
     }
 
     #header {
@@ -632,7 +634,7 @@ hr {
     }
 
     .tour-search-box {
-        width: 410px;
+        width: 388px;
         padding: 24px 15px;
     }
 
@@ -648,19 +650,37 @@ hr {
     }
 
     .when-filed label {
-        padding: 19px 179px 21px 15px;
+        padding: 19px 156px 21px 15px;
     }
 
     input[type="text"]:first-child {
         margin: 10px 10px 16px 10px;
     }
 
-    /* #select-type,
-    input, label {
-        display: flex;
-        flex-direction: column;
+
+    /* global responsive style  */
+
+    .global-title {
+        font-size: 20px;
+    }
+
+    .description-text,
+    .card-text {
+        font-size: 14px;
         margin-bottom: 16px;
-    } */
+    }
+
+    .discounts-content {
+        height: 66vh;
+    }
+
+    .discount-card-title,
+    .newsletter-title,
+    .card-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
     .destination-content img,
     .newsletter-content img {
         width: 100%;
@@ -691,22 +711,38 @@ hr {
 
     .discounts-card {
         width: 320px;
-        padding: 50px;
-        margin: 50px;
+        padding: 24px;
+        margin: 180px 46px 22px 48px;
     }
 
     /* sponsor section responsive  */
 
     .sponsor-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 25px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .sponsor-container img,
     .feature-img {
-        max-width: 80%;
+        max-width: 90%;
         text-align: center;
     }
 
+    .tours-content img {
+        max-width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* header section style start here  */
+
+    .banner-container {
+        height: 116vh;
+    }
 }
