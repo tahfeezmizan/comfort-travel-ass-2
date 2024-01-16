@@ -468,12 +468,13 @@ hr {
 
 .newsletter-content {
     position: relative;
+    overflow: hidden;
 }
 
 .overlay {
     position: absolute;
-    top: 233px;
-    left: 217px;
+    top: 235px;
+    left: 330px;
     transform: rotate(-14deg);
     padding: 30px 40px;
     color: var(--white-01);
@@ -527,7 +528,7 @@ hr {
 }
 
 #footer-hr {
-    margin: 50px 0px !important;
+    margin: 30px 0px !important;
 }
 
 
@@ -628,7 +629,7 @@ hr {
     }
 
     .banner-container {
-        height: 85vh;
+        height: 80vh;
     }
 
     .banner-title {
@@ -724,9 +725,9 @@ hr {
     }
 
     .overlay {
-        top: 171px;
+        top: 180px;
         left: 236px;
-        right: 10px;
+        right: 18px;
         padding: 24px 30px;
         border-radius: 16px;
     }
@@ -811,7 +812,7 @@ hr {
     #check {
         display: inline-flex;
         position: absolute;
-        right: -443px;
+        right: -384px;
     }
 
     #check {
