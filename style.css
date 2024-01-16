@@ -468,13 +468,12 @@ hr {
 
 .newsletter-content {
     position: relative;
-    overflow: hidden;
 }
 
 .overlay {
     position: absolute;
-    top: 235px;
-    left: 330px;
+    top: 233px;
+    left: 217px;
     transform: rotate(-14deg);
     padding: 30px 40px;
     color: var(--white-01);
