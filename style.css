@@ -287,6 +287,22 @@ input[type="submit"] {
     padding: 0 16rem;
 }
 
+.img-overlay {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 54;
+    color: var(--white-01);
+    text-align: center;
+    font-size: 28px;
+    font-weight: var(--title-font-weight);
+}
+
 /* Your Destination style end here  */
 
 
