@@ -353,8 +353,11 @@ input[type="submit"] {
     height: 500px;
     margin-bottom: 25px;
 }
-
-
+.second-card-content{
+    background: url(Images/Group\ 40.png);
+    background-size: cover;
+    height: 500px;
+}
 
 .discounts-card {
     position: absolute;
@@ -366,6 +369,9 @@ input[type="submit"] {
     padding: 50px;
     margin: 58px 56px 58px 535px;
     text-align: start;
+}
+.second-card {
+    margin: 56px 56px 58px 56px;
 }
 
 .date-line {
