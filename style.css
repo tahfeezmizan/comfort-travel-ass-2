@@ -153,6 +153,9 @@ section {
     padding: 0 16rem;
 }
 
+form {
+    display: flex;
+}
 .tour-search-box {
     display: flex;
     align-items: center;
@@ -206,7 +209,7 @@ input[type="text"]:first-child {
     padding-right: 5px;
 }
 
-label {
+.when-filed label {
     background: #fff;
     color: rgba(19, 19, 24, 0.50);
     font-weight: 700;
@@ -327,7 +330,7 @@ input[type="submit"] {
 }
 
 .sponsor-container img {
-    width: 130px;
+    width: 165px;
 }
 
 /* Sponsor style start here  */
@@ -618,6 +621,7 @@ hr {
 
     .banner-title {
         font-size: 22px;
+        padding-top: 35px;
     }
 
     .banner-des,
@@ -628,9 +632,27 @@ hr {
     }
 
     .tour-search-box {
-        width: 490px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        width: 410px;
+        padding: 24px 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 391px;
+    }
+
+    form input,
+    select {
+        margin-bottom: 16px;
+    }
+
+    .when-filed label {
+        padding: 19px 179px 21px 15px;
+    }
+
+    input[type="text"]:first-child {
+        margin: 10px 10px 16px 10px;
     }
 
     /* #select-type,
@@ -680,7 +702,7 @@ hr {
         justify-content: center;
         gap: 25px;
     }
-    
+
     .sponsor-container img,
     .feature-img {
         max-width: 80%;
