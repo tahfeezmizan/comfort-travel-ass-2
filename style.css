@@ -793,7 +793,7 @@ hr {
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .banner-container {
-        height: 85vh;
+        height: 75vh;
     }
 
     .toggle-icon {
@@ -867,8 +867,8 @@ hr {
     }
     .overlay {
         position: absolute;
-        top: 217px;
-        left: 196px;
+        top: 216px;
+        left: 250px;
         right: 22px;
     }
 }
