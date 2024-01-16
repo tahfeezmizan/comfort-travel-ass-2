@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"); * {
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
@@ -38,7 +40,8 @@ section {
     font-weight: var(--title-font-weight);
 }
 
-.primary-btn, #newsletter-submit {
+.primary-btn,
+#newsletter-submit {
     padding: 14px 35px;
     color: var(--white-01);
     font-size: 20px;
@@ -54,7 +57,9 @@ section {
     align-items: end;
 }
 
-.nav-bar, .site-logo, .nav-item {
+.nav-bar,
+.site-logo,
+.nav-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,7 +69,8 @@ section {
     padding-top: 45px;
 }
 
-.site-logo .nav-title, .footer-title {
+.site-logo .nav-title,
+.footer-title {
     color: var(--title-color);
     font-size: 36px;
     font-weight: var(--title-font-weight);
@@ -98,7 +104,8 @@ section {
     padding-right: 0px;
 }
 
-.toggle-icon, #check {
+.toggle-icon,
+#check {
     color: rgb(17, 10, 19);
     font-size: 2.5rem;
     cursor: pointer;
@@ -107,7 +114,7 @@ section {
 
 
 .banner-container {
-    height: 64vh;
+    height: 72vh;
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url("Images/banner-img.png");
@@ -151,7 +158,8 @@ section {
     padding: 24px 15px;
 }
 
-input, select {
+input,
+select {
     border: none;
     outline: none;
     color: rgba(19, 19, 24, 0.5);
@@ -180,7 +188,8 @@ input[type="text"] {
     margin-left: 0px;
 }
 
-select#select-type, input[type="text"] {
+select#select-type,
+input[type="text"] {
     color: rgba(19, 19, 24, 0.5);
     font-size: var(--description-font-size);
     font-weight: 700;
@@ -201,12 +210,15 @@ input[type="text"]:first-child {
     border-bottom-left-radius: 8px;
 }
 
-input::placeholder, select::placeholder, input[type="submit"] {
+input::placeholder,
+select::placeholder,
+input[type="submit"] {
     color: rgba(19, 19, 24, 0.5);
     font-size: var(--description-font-size);
 }
 
-.popular-tours-container, .perfects-place-container {
+.popular-tours-container,
+.perfects-place-container {
     display: flex;
     gap: 70px;
     align-items: center;
@@ -229,26 +241,36 @@ input::placeholder, select::placeholder, input[type="submit"] {
     margin-top: 10px;
 }
 
-.destination-container, .choose-us-container, .deals-discounts-container {
+.destination-container,
+.choose-us-container,
+.deals-discounts-container {
     text-align: center;
     padding: 0 15px;
 }
 
-.destination-title, .choose-us-title, .deals-discounts-title {
+.destination-title,
+.choose-us-title,
+.deals-discounts-title {
     margin-bottom: 25px;
 }
 
-.destination-text, .choose-us-text, .deals-discounts-text {
+.destination-text,
+.choose-us-text,
+.deals-discounts-text {
     margin-bottom: 48px;
 }
 
-.image-1, .image-2, .image-3 {
+.image-1,
+.image-2,
+.image-3 {
     display: flex;
     gap: 30px;
     margin-bottom: 25px;
 }
 
-.destination-text, .choose-us-text, .deals-discounts-text {
+.destination-text,
+.choose-us-text,
+.deals-discounts-text {
     padding: 0px 16rem;
 }
 
@@ -375,7 +397,8 @@ input::placeholder, select::placeholder, input[type="submit"] {
     margin-bottom: -6px;
 }
 
-.discount-card-title, .newsletter-title {
+.discount-card-title,
+.newsletter-title {
     color: var(--title-color);
     font-size: 24px;
     font-weight: var(--title-font-weight);
@@ -430,7 +453,9 @@ hr {
     border-radius: 8px;
 }
 
-#newsletter-text, #newsletter-email, #newsletter-submit {
+#newsletter-text,
+#newsletter-email,
+#newsletter-submit {
     background: rgba(19, 19, 24, 0.05);
     margin-left: 0px;
     margin-right: 0px;
@@ -443,6 +468,7 @@ hr {
 
 .newsletter-content {
     position: relative;
+    overflow: hidden;
 }
 
 .overlay {
@@ -533,18 +559,25 @@ hr {
         position: relative;
     }
 
-    .site-logo{
+    .site-logo {
         display: flex;
         justify-content: start;
         padding-left: 20px;
     }
 
-    .toggle-icon, #check{
+    .site-logo .nav-title,
+    .footer-title {
+        font-size: 28px;
+    }
+
+    .toggle-icon,
+    #check {
         display: inline-flex;
         position: absolute;
         right: 30px;
     }
-    #check{
+
+    #check {
         display: none;
         top: 33px;
         z-index: 1;
@@ -562,10 +595,12 @@ hr {
     #check:checked~.toggle-icon #close-menu {
         display: block
     }
+
     ul.nav-item li {
         margin: 12px 0;
     }
-    .nav-item{
+
+    .nav-item {
         display: none;
         position: absolute;
         top: 82px;
@@ -578,12 +613,13 @@ hr {
 
     .nav-item li a {
         color: #fff !important;
-    } 
-    
+    }
+
     #check:checked~.nav-item {
         height: 12rem;
         display: block;
     }
+
     .nav-bar {
         flex-direction: column;
         gap: 15px;
@@ -601,7 +637,10 @@ hr {
         padding-top: 35px;
     }
 
-    .banner-des, .destination-text, .choose-us-text, .deals-discounts-text {
+    .banner-des,
+    .destination-text,
+    .choose-us-text,
+    .deals-discounts-text {
         padding: 0px 3rem;
     }
 
@@ -627,11 +666,13 @@ hr {
     input[type="time"] {
         margin-bottom: 0px;
     }
+
     input[type="submit"] {
         width: 94%;
     }
-    
-    form input, select {
+
+    form input,
+    select {
         margin-bottom: 16px;
     }
 
@@ -647,7 +688,8 @@ hr {
         font-size: 20px;
     }
 
-    .description-text, .card-text {
+    .description-text,
+    .card-text {
         font-size: 14px;
         margin-bottom: 16px;
     }
@@ -657,16 +699,24 @@ hr {
         border-radius: 16px;
     }
 
-    .discount-card-title, .newsletter-title, .card-title {
+    .discount-card-title,
+    .newsletter-title,
+    .card-title {
         font-size: 20px;
         margin-bottom: 8px;
     }
 
-    .destination-content img, .newsletter-content img {
+    .destination-content img,
+    .newsletter-content img {
         width: 100%;
     }
 
-    .popular-tours-container, .perfects-place-container, .image-1, .image-2, .image-3, .newsletter-container {
+    .popular-tours-container,
+    .perfects-place-container,
+    .image-1,
+    .image-2,
+    .image-3,
+    .newsletter-container {
         flex-direction: column;
     }
 
@@ -690,7 +740,8 @@ hr {
         font-size: 21px;
     }
 
-    .choose-us-card, .date-line {
+    .choose-us-card,
+    .date-line {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -720,7 +771,8 @@ hr {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .sponsor-container img, .feature-img {
+    .sponsor-container img,
+    .feature-img {
         max-width: 90%;
         text-align: center;
     }
@@ -745,23 +797,25 @@ hr {
         height: 85vh;
     }
 
-    .toggle-icon{
+    .toggle-icon {
         display: block;
     }
 
-    .site-logo{
+    .site-logo {
         display: flex;
         justify-content: start;
         padding-left: 20px;
         margin-top: 40px;
     }
 
-    .toggle-icon, #check{
+    .toggle-icon,
+    #check {
         display: inline-flex;
         position: absolute;
         right: -443px;
     }
-    #check{
+
+    #check {
         display: none;
         top: 33px;
         z-index: 1;
@@ -778,10 +832,12 @@ hr {
     #check:checked~.toggle-icon #close-menu {
         display: block
     }
+
     ul.nav-item li {
         margin: 17px 0;
     }
-    .nav-item{
+
+    .nav-item {
         display: none;
         position: absolute;
         top: 148px;
@@ -796,17 +852,24 @@ hr {
     .nav-item li a {
         color: #fff !important;
         font-size: 26px;
-    } 
-    
+    }
+
     #check:checked~.nav-item {
         height: 17rem;
         display: block;
     }
+
     .nav-bar {
         flex-direction: column;
         gap: 15px;
         padding: 20px 0px;
         align-items: self-start;
         justify-content: end;
+    }
+    .overlay {
+        position: absolute;
+        top: 217px;
+        left: 196px;
+        right: 22px;
     }
 }
