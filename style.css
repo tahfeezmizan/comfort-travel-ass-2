@@ -107,7 +107,7 @@ section {
 
 
 .banner-container {
-    height: 72vh;
+    height: 64vh;
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url("Images/banner-img.png");
